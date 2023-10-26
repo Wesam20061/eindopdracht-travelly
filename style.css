@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Img/landing-page.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+    
+}
+#Benefits{
+
+    background-image: url(./Img/new-york-page.png);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100vh;
+
+
+
+
+}
+
+#contact{
+    background-image: url(./Img/contact-mountain.png);
+    
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+#h2bene{
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+
+
+
+
+.h2home{
+    text-align: center;
+    color: #fff;
+        position: absolute;
+        bottom: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Pattaya", sans-serif
+        font-size: 90px
+    
+}
+.phome{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+        bottom: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Poppins", sans-serif 
+        font-size: 20px
+}
+.book-now-button {
+    background-color: #4c6e97; /* Achtergrondkleur van de knop */
+    color: #fff; /* Tekstkleur van de knop */
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 200px;
+    left: 45%;
+    
+}
+
+
+.book-now-button:hover {
+    background-color: #4c6e97; /* Achtergrondkleur bij hover */
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131c27;
+    color: #fff;
+    padding: 1px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 70px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white
+}
+
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
